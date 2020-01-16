@@ -26,7 +26,7 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Manage. Deploy.
+    title: Reputation Based Filter
     # Hero subtitle (optional)
     subtitle: Lorem ipsum sit dolor amet is dummy text used by the typography industry
     # Button text
