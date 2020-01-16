@@ -30,7 +30,7 @@ params:
     # Hero subtitle (optional)
     subtitle: ゼタントが提供するReputation Based Filterサービス
     # Button text
-    buttontext: Get started
+    buttontext: ダウンロード
     # Where the main hero button links to
     buttonlink: "#"
     # Hero image (from static/images/___)
