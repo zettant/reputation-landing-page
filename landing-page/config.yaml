@@ -28,7 +28,7 @@ params:
     # Main hero title
     title: Reputation Based Filter
     # Hero subtitle (optional)
-    subtitle: Lorem ipsum sit dolor amet is dummy text used by the typography industry
+    subtitle: ゼタントが提供するReputation Based Filterサービス
     # Button text
     buttontext: Get started
     # Where the main hero button links to
