@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reputation Based Filter ユーザ名設定ページ</title>
+</head>
+<body>
+<table border="0">
+    <tr>
+        <td align="right"><b> fingerprint：</b></td>
+        <td><span id="fingerprintspan"></span></td>
+    </tr>
+    <tr>
+        <td align="right"><b> 名前：</b></td>
+        <td><input type="text" id="usernameinput" name="username" size="30" maxlength="20"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <input id="setbutton" type="button" value="送信">
+        </td>
+    </tr>
+</table>
+<script type="text/javascript" src="https://d3n946u9t9i5xa.cloudfront.net/reputation.default.bundle.js"/>
+<!--<script type="text/javascript" src="./reputation.default.bundle.js"/>-->
+<script>
+    document.getElementById('fingerprintspan').innerText = fingerprint;
+    document.getElementById('setbutton').addEventListener('click', () => {
+        const username = document.getElementById('ernameinput').value;
+    });
+</script>
+</body>
+</html>
